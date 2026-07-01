@@ -1,0 +1,17 @@
+canonical_identifier: bkk:krp/KR6i0486/x/v1/juan/0
+seq: 0
+front:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+body:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 四十二章經解
+  edition:
+    short: x
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/X/X37/X37n0670.xml
+    old_id: X37n0670
+hash: sha256:93850dfe46b1ddabcc8691f120d16a875015821a5620f6efdbaa83ed3b2f1d8a

@@ -1,0 +1,42 @@
+canonical_identifier: bkk:krp/KR6i0486/v1
+canonical_location: https://kanripo.org/bkk/KR6i0486/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 四十二章經解
+  identifiers:
+    alt_id:
+    - X37n0670
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/X/X37/X37n0670.xml
+    old_id: X37n0670
+  edition:
+    short: bkk
+editions:
+- short: 卍續
+  label: 卍續
+  source_xml_id: wit.orig
+- short: X
+assets:
+  parts:
+  - {seq: 0, filename: KR6i0486_000.yaml, hash: 'sha256:93850dfe46b1ddabcc8691f120d16a875015821a5620f6efdbaa83ed3b2f1d8a'}
+  - {seq: 1, filename: KR6i0486_001.yaml, hash: 'sha256:36ad2abcd51226ff4c583c9456602d89e813dec53283bbc148bb0c325c29b20f'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6i0486_001.markers.yaml, hash: 'sha256:9f1cd646ffa9d2a8ba0b7686b96c685d74ee1c5f004384d084941db042cab77a'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6i0486_X_001-juan-start
+    span:
+    - body
+    - 0
+    - 10941
+  label: 佛說四十二章經解
+  type: juan
+  level: 1
+hash: sha256:7a4e040755dc9fb96e4780459e0e0a280307685bd37079bcc2eaa1699f7048c7
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e

@@ -1,0 +1,38 @@
+canonical_identifier: bkk:krp/KR6i0486/X/v1
+canonical_location: https://kanripo.org/bkk/KR6i0486/X/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 四十二章經解
+  identifiers:
+    krp: KR6i0486
+    cbeta: X37n0670
+    cbeta_old_id: X37n0670
+    authorityid: CA0002840
+    json_key: X0670
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/X/X37/X37n0670.xml
+    old_id: X37n0670
+  edition:
+    short: X
+assets:
+  parts:
+  - {seq: 0, filename: KR6i0486_000-X.yaml, hash: 'sha256:93850dfe46b1ddabcc8691f120d16a875015821a5620f6efdbaa83ed3b2f1d8a'}
+  - {seq: 1, filename: KR6i0486_001-X.yaml, hash: 'sha256:f91448d1fb583c96d695746d22b92080b74b85e728e1afcd6a020d05e755673a'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR6i0486_000-X.markers.yaml, hash: 'sha256:7c48d2ddba4c88cfac66cb383dc7c28c505623f5accd1186695a210c1d81b56e'}
+  - {seq: 1, role: markers, filename: assets/KR6i0486_001-X.markers.yaml, hash: 'sha256:81aa355cd13abb22c667110eaf63b3080799519abcf0d20d4d5905a50ee439dd'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6i0486_X_001-juan-start
+    span:
+    - body
+    - 0
+    - 10941
+  label: 佛說四十二章經解
+  type: juan
+  level: 1
+hash: sha256:a8ad051c62d76c29c7a47c02784004a66f3e6c036f8ad0cc34bef389a9972e90
