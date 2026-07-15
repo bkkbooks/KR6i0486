@@ -2,7 +2,7 @@ canonical_identifier: bkk:krp/KR6i0486/v1
 canonical_location: https://kanripo.org/bkk/KR6i0486/v1
 canonical_set:
   identifier: bkk:charset/cjk-v1
-  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+  hash: sha256:37995e65f5e6cdc8cfbc980fea50ec86663e3e7de950809f7e37f003754b3227
 metadata:
   title: 四十二章經解
   identifiers:
@@ -22,10 +22,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6i0486_000.yaml, hash: 'sha256:93850dfe46b1ddabcc8691f120d16a875015821a5620f6efdbaa83ed3b2f1d8a'}
-  - {seq: 1, filename: KR6i0486_001.yaml, hash: 'sha256:f91448d1fb583c96d695746d22b92080b74b85e728e1afcd6a020d05e755673a'}
+  - {seq: 1, filename: KR6i0486_001.yaml, hash: 'sha256:11d0faf27e4b50f2b9e243ac4fa0a1de00cb3c4913c5242a06848f3b8b024d39'}
   markers:
   - {seq: 0, role: markers, filename: assets/KR6i0486_000.markers.yaml, hash: 'sha256:b7378326d95b2eb35165ead9a02b443532477dfa3417fc46714e6fbbdec0c0f2'}
-  - {seq: 1, role: markers, filename: assets/KR6i0486_001.markers.yaml, hash: 'sha256:7020fa32e7657abd238b27edfa52ea2139f8cbbab1d3bc6703a374e20bbf3b7e'}
+  - {seq: 1, role: markers, filename: assets/KR6i0486_001.markers.yaml, hash: 'sha256:fe3c011ce8375d46e393eb6127ba79be5ebf6ca5771d258cf337ebbb126049da'}
 table_of_contents:
 - ref:
     seq: 1
@@ -37,4 +37,7 @@ table_of_contents:
   label: 佛說四十二章經解
   type: juan
   level: 1
-hash: sha256:e77cfbcdf28883fae5c9b09eb59132ed17833179a8d7e56e29cc21ad1340ca70
+hash: sha256:60652742679bc9067f9ae0f40d8d9a01d5da08747fbffd3c427c4218e021bab4
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:9bc9a4233a10ab6fe6494b31262c157187fd580f02a97cad91be81ccd48f7a20
